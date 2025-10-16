@@ -1,0 +1,15 @@
+- name: Doble venta
+  condition:
+    doble_venta: "Sí"
+  analysis: "Se produce conflicto entre dos adquirentes del mismo inmueble."
+  conclusion: "El adquirente que primero inscribe en el Registro tiene preferencia (art. 34 LH)."
+  risk: "Posible litigio por nulidad o reivindicación."
+  next_steps: "Verificar inscripciones y fechas en el Registro de la Propiedad."
+
+- name: Administrador no inscrito
+  condition:
+    admin_no_inscrito: "Sí"
+  analysis: "El nombramiento del administrador no produce efectos frente a terceros."
+  conclusion: "Los actos del administrador no inscrito no son oponibles a terceros de buena fe."
+  risk: "Impugnación de actos societarios."
+  next_steps: "Inscribir nombramiento en el Registro Mercantil."
